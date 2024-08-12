@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    text-transform: uppercase;
+}
+
+.conteiner{
+    position: relative;
+    width: 1875px;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: solid;
+    color: white;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Palanquin Dark', sans-serif;
+    background-color: #222222;
+    padding: 20px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    left: 38%;
+    gap: 15px;
+}
+
+.menu a:hover{
+    cursor: pointer;
+    color:#FFB800;    
+}
+
+.menu a.active{
+    color:#ffb700c2
+}
+
+.center{
+    margin-right: 40%;
+    margin-top: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 500%;
+    transform: rotate(-10deg);
+    background-color: transparent;
+}
+
+.dots1{
+    position: absolute;
+    top: 65%;
+    left: 6%
+}
+.dots2{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+}
+.dots3{
+    position: absolute;
+    top: 7%;
+    right: 47%;
+    transform: rotate(90deg);
+}
+
+.CG{
+    color: white;
+    font-size: 70%;
+    background-color: transparent;
+    position: relative;
+    left: 15px;
+    top: 30px;
+    font-family: 'Just Another Hand', cursive;
+}
+
+.CP{
+    color: #FFB800;
+    background-color: transparent;
+    bottom: 40px;
+    position: relative;
+    font-family: 'Palanquin Dark', sans-serif;
+    left: 60px
+}
+.COAT{
+    color: white;
+    background-color: transparent;
+    position: relative;
+    bottom: 125px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.contle{
+    position: relative;
+}
+
+.LERMOR{
+    padding-bottom: 4.5%;
+    bottom: 20%;
+    left: 27%;
+    position: absolute;
+    gap: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.BLEM{
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-left: 45px;
+    background-color: #FFB800;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px black;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.BLEM:hover{
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+.condo{
+    position: relative;
+    margin-top: 80px;
+}
+
+.dot{
+    bottom: 15%;
+    right: 15%;
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-color: #FFB800;
+    border-radius: 50%;
+    border: solid #FFB800;
+    border-width: 8px;
+    height: 600px;
+    width: 600px;
+    background-image: url(1.webp);
+}
+
+
+
+
+.NAME{
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    font-size: 300%;
+    right: 21.5%;
+    color:#FFB800;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.bars{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    float: right;
+    margin-right: 26%;
+    margin-top: 5%;
+}
+
+.minibar{
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 10px;
+    width: 40px;
+    border: rgba(255, 255, 255, 0.50);
+    border-radius: 30px;
+}
+
+.bigbar{
+    background-color: rgba(255, 255, 255, 0.50);
+    width: 82px;
+    height: 10px;
+    border: rgba(255, 255, 255, 0.50);
+    border-radius: 30px;
+    position: relative;
+}
+
+.prog{
+    background-color: white;
+    width: 0px;
+    height: 10px;
+    border: white;
+    border-radius: 30px;
+    position: relative;
+    animation-name: progressbar;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes progressbar{
+    from{width: 0px;}
+    to{width: 82px;}
+}
+
+.NMN{
+    position: relative;
+}

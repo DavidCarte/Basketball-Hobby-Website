@@ -1,0 +1,2 @@
+align to poziomo
+justify to pionowo
